@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import {Message} from "./Message";
-import ListElements from "./ListElements";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Main from "./Components/Main";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
-    <Message></Message>
-    <ListElements></ListElements>
+      <Navbar></Navbar>
+      <Main></Main>
+      <Footer></Footer>
     </div>
   );
 }
