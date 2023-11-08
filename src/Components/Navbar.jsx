@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <center>
         <h1 style={{ backgroundColor: "lavender", fontSize: "30px" }}>
-          Varsha SR
+          Login Page
         </h1>
       </center>
     </div>
