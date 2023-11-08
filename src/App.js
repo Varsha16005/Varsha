@@ -4,11 +4,13 @@
 // import Main from "./Components/Main";
 // import Footer from "./Components/Footer";
 //import Buttons from "./Components/Buttons";
-import GokuTransformation from "./Day3/GokuTransformation";
+//import GokuTransformation from "./Day3/GokuTransformation";
+import DynamicRendering from "./Day3/DynamicRendering";
+
 function App() {
   return (
     <div>
-      <GokuTransformation></GokuTransformation>
+      <DynamicRendering></DynamicRendering>
     </div>
     //     <div className="flex space-x-4 my-4">
     //       <Buttons color="green">Green</Buttons>

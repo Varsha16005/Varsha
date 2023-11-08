@@ -1,18 +1,16 @@
-import React from 'react'
-
-function simple() {
-  return (
-    <div>simple</div>
-  )
-}
-
-export default simple
-import React from 'react'
+import React, { useState } from "react";
 
 const simple = () => {
+  const [currvalue, setState] = useState(Kaioken);
   return (
-    <div>simple</div>
-  )
-}
+    <div>
+      <input
+        type="checkbox"
+        onChange={() => setState(currvalue === "Kaioken" ? "Super" : "Kaioken")}
+      />
+      <h1>{currentvalue}</h1>
+    </div>
+  );
+};
 
-export default simple
+export default simple;

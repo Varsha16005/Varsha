@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 
 const DynamicRendering = () => {
-  // const [one, two] = [1, 2];
-  // let clickedFramework = -1; // has a scope
   const [selectedFramework, setSelectedFramerwork] = useState(-1);
-  // 0 -> The variable
-  // 1 -> Updater function
   const arr = [
     "ReactJS",
     "AngularJS",
