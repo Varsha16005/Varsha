@@ -6,11 +6,13 @@
 //import Buttons from "./Components/Buttons";
 //import GokuTransformation from "./Day3/GokuTransformation";
 //import DynamicRendering from "./Day3/DynamicRendering";
-import HelloWorld from "./Day2/HelloWorld";
+//import HelloWorld from "./Day2/HelloWorld";
+import Counter from "./Day3/Counter";
+
 function App() {
   return (
     <div>
-      <HelloWorld></HelloWorld>
+      <Counter></Counter>
     </div>
     //   *********buttons code******
     //     <div className="flex space-x-4 my-4">
