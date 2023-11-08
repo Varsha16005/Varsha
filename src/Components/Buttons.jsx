@@ -1,4 +1,4 @@
-const Buttons = (props) => {
+const Button = (props) => {
   return (
     <button className={`px-4 py-2 bg-${props.color}-500 rounded-lg`}>
       {props.label}
@@ -6,4 +6,5 @@ const Buttons = (props) => {
     </button>
   );
 };
-export default Buttons;
+
+export default Button;
