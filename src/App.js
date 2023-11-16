@@ -61,7 +61,9 @@ import Header from "./Project/LoginPage/Header.jsx";
 const App = () => {
   return (
     <div>
-      <Header></Header>
+      <center>
+        <Header></Header>
+      </center>
     </div>
   );
 };
