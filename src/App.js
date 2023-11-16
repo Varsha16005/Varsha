@@ -26,31 +26,44 @@
 
 // export default App;
 
-import { useState } from "react";
-import Cart from "./Day3/CoffeeShop/Cart";
-import Menu from "./Day3/CoffeeShop/Menu";
-import Navbar from "./Day3/CoffeeShop/Navbar";
-import categories from "./Day3/CoffeeShop/Products";
+// import { useState } from "react";
+// import Cart from "./Day3/CoffeeShop/Cart";
+// import Menu from "./Day3/CoffeeShop/Menu";
+// import Navbar from "./Day3/CoffeeShop/Navbar";
+// import categories from "./Day3/CoffeeShop/Products";
 
-function App() {
-  const [activeCategory, setActiveCategory] = useState(categories[0]);
-  const [products, setProducts] = useState([]);
+// function App() {
+//   const [activeCategory, setActiveCategory] = useState(categories[0]);
+//   const [products, setProducts] = useState([]);
 
-  const handleClick = (index) => {
-    setActiveCategory(categories[index]);
-  };
+//   const handleClick = (index) => {
+//     setActiveCategory(categories[index]);
+//   };
 
-  const handleAddToCart = (item) => {
-    setProducts([...products, item]);
-  };
+//   const handleAddToCart = (item) => {
+//     setProducts([...products, item]);
+//   };
 
+//   return (
+//     <div className="space-y-4 my-4">
+//       <Navbar category={categories} handleClick={handleClick} />
+//       <Menu activeCategory={activeCategory} handleAddToCart={handleAddToCart} />
+//       <Cart products={products} />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import React from "react";
+import Header from "./Project/LoginPage/Header.jsx";
+
+const App = () => {
   return (
-    <div className="space-y-4 my-4">
-      <Navbar category={categories} handleClick={handleClick} />
-      <Menu activeCategory={activeCategory} handleAddToCart={handleAddToCart} />
-      <Cart products={products} />
+    <div>
+      <Header></Header>
     </div>
   );
-}
+};
 
 export default App;
